@@ -1,15 +1,13 @@
 # Modx-RestFul-API
-This is a sample configuration of the modx rest service available in 2.3+. Please note that this is a work in progress :)
+Это пример конфигурации службы modx rest, доступной в версии 2.3+. Пожалуйста, обратите внимание, что над этим ведется работа :)
 
+##Включенные контроллеры
 
-##Included Controllers
-- Content coming soon
+Скоро появится контент
+##Доступные функции
 
-##Available Functions
-- Extend your controllers by overriding these public functions within them
-
-##Available Options
-The following options are used if the default get/put/post/delete methods are not overridden. They automate the display and manipulation of data based on the classKey that is specified on the controller class, allowing for quick and easy controller creation based on standard CRUD concepts.
+Расширьте свои контроллеры, переопределив эти общедоступные функции в них
+##Доступные опции Следующие опции используются, если методы get/put/post/delete по умолчанию не переопределены. Они автоматизируют отображение данных и манипулирование ими на основе classKey, указанного в классе контроллера, что позволяет быстро и просто создавать контроллер на основе стандартных концепций CRUD.
 
 - `public $classKey;` @var string $classKey The xPDO class to use
     
